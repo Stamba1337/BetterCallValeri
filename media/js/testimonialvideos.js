@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var badgerlinkcontent = '<div><video width="640" height="385" controls><source src="/media/images/valerireklama.mp4" type="video/mp4"></video></div>';
+    var badgerlinkcontent = '<div><video width="640" height="385" controls><source src="/media/images/hristo.mp4" type="video/mp4"></video></div>';
     var wendylinkcontent = '<div><object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/P-nhEHXQcTs&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/P-nhEHXQcTs&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object></div>';
     var carllinkcontent = '<div><video width="640" height="385" controls><source src="/media/images/pesho.mp4" type="video/mp4"></video></div>';
 

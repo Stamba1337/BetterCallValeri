@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        #left-column,
+        #right-column {
+            flex: 1;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #left-column {
+            position: relative;
+        }
+
+        #right-column {
+            position: relative;
+        }
+
+        #bomba {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 200px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px;
+            z-index: 1;
+            animation: flash 0.5s infinite;
+        }
+
+        @keyframes flash {
+            0% {
+                color: red;
+            }
+
+            25% {
+                color: blue;
+            }
+
+            50% {
+                color: green;
+            }
+
+            75% {
+                color: yellow;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        .image-column {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .image-column img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation-duration: 30s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            vertical-align: middle;
+            margin-bottom: 0;
+        }
+
+        #left-column img {
+            animation-name: scroll-left;
+        }
+
+        #right-column img {
+            animation-name: scroll-right;
+        }
+
+        @keyframes scroll-left {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(calc(-100% * 5));
+            }
+        }
+
+        @keyframes scroll-right {
+            0% {
+                transform: translateY(calc(-100% * 5));
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left-column" class="image-column">
+        <img src="/media/images/pyozeapx9yf91.png" alt="">
+        <img src="/media/images/5kgmnibdfc961.jpg" alt="">
+        <img src="/media/images/r9i5ckyqiz2b1.jpg" alt="">
+        <img src="/media/images/fn62k0fvdhm71.jpg" alt="">
+        <img src="/media/images/gargs.png" alt="">
+    </div>
+
+    <div id="bomba">
+        BOMBA
+    </div>
+
+    <div id="right-column" class="image-column">
+        <img src="/media/images/shrekgragus.png" alt="">
+        <img src="/media/images/teemograg.jpg" alt="">
+        <img src="/media/images/maxresdefault.jpg" alt="">
+        <img src="/media/images/ETz1cJGX0AEM5I2.png" alt="">
+        <img src="/media/images/FZ81hCLVsAE_OVg.jpg" alt="">
+    </div>
+</body>
+
+</html>

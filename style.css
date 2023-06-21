@@ -3,211 +3,260 @@ body {
 	color: black;
 	background: white;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
+
 /* tables still need 'cellspacing="0"' in the markup */
 table {
 	border-collapse: separate;
 	border-spacing: 0;
 }
-caption, th, td {
+
+caption,
+th,
+td {
 	text-align: left;
 	font-weight: normal;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: "";
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: "" "";
 }
 
+#hiddenButton{
+	position: fixed;
+	left:10px
+}
+
+#hiddenButton a {
+	font-size: 30px;
+	color: #eae41f;
+	text-decoration: none;
+}
+
+#hiddenButton a:hover {
+	color: red;
+}
+
+#right-column {
+	float: right;
+	align-items: end;
+	height: 100%;
+}
+
+#left-column {
+	float: left;
+	align-items: start;
+	height: 100%;
+}
+
+#right-column img,
+#left-column img {
+	overflow: visible;
+	max-width: 200px;
+	height: auto;
+	max-height: 100%;
+}
 
 body {
-    margin-top: 0%;
-    background-color: #eae41f;
-    font-size: 62.5%;
-    font-family: arial, helvetica, sans-serif;
+	margin-top: 0%;
+	background-color: #eae41f;
+	font-size: 62.5%;
+	font-family: arial, helvetica, sans-serif;
 }
 
 #dresslikevaleribody {
-background-color: #fe0000;
-background-image: url(../images/dresslikevaleribg.jpg);
-background-position: top center;
-background-repeat: no-repeat;
+	background-color: #fe0000;
+	background-image: url(../images/dresslikevaleribg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 
 #container {
-width: 960px;
-margin: 0 auto;
-font-size: 1.4em;
+	width: 960px;
+	margin: 0 auto;
+	font-size: 1.4em;
 }
 
 #mainheader {
-height: 234px;
-width: 100%;
-position: relative;
+	height: 234px;
+	width: 100%;
+	position: relative;
 }
 
 #valerivideointro {
-width: 300px;
-height: 234px;
-position: absolute; 
-z-index: 300;
-top: 0px; 
-right: 0px;
+	width: 300px;
+	height: 234px;
+	position: absolute;
+	z-index: 300;
+	top: 0px;
+	right: 0px;
 }
 
-#duivideo, #drugsvideo, #murdervideo, #prostitutionvideo, #rightvideolinksactive {
-display: none;
+#duivideo,
+#drugsvideo,
+#murdervideo,
+#prostitutionvideo,
+#rightvideolinksactive {
+	display: none;
 }
 
 #valeriheader {
-position: relative;
-z-index: 100;
+	position: relative;
+	z-index: 100;
 }
 
 #noflashcontent {
-width: 300px;
-height: 234px;
+	width: 300px;
+	height: 234px;
 }
 
 #ecardsheader {
-height: 234px;
-width: 100%;
-position: relative;
-background-image: url(../images/ecardsheader_b.jpg);
-background-repeat: no-repeat;
+	height: 234px;
+	width: 100%;
+	position: relative;
+	background-image: url(../images/ecardsheader_b.jpg);
+	background-repeat: no-repeat;
 }
 
 #content {
-width: 100%;
+	width: 100%;
 }
 
 #contentwide {
-width: 100%;
-background-color: #fff;
-padding: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 0;
 }
 
 #leftcontentmodule {
-width: 157px;
-height: 383px;
-background-color: #5e8eb1;
-float: left;
-padding: 4px 0 0 0;
-position: relative;
+	width: 157px;
+	height: 383px;
+	background-color: #5e8eb1;
+	float: left;
+	padding: 4px 0 0 0;
+	position: relative;
 }
 
 #leftcontentmodulecards {
-width: 157px;
-height: 596px;
-background-color: #5e8eb1;
-float: left;
-padding: 4px 0 0 0;
-position: relative;
+	width: 157px;
+	height: 596px;
+	background-color: #5e8eb1;
+	float: left;
+	padding: 4px 0 0 0;
+	position: relative;
 }
 
 #ecards {
-float: right;
+	float: right;
 }
 
 #videocontentmodule {
-height: 390px;
-width: 640px;
-float: left;
-position: relative;
-z-index: 4000;
-background-color: #fdea0a;
+	height: 390px;
+	width: 640px;
+	float: left;
+	position: relative;
+	z-index: 4000;
+	background-color: #fdea0a;
 }
 
 /*  MAIN youtube video link divs  */
 
 #suelink {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 70px;
-left: 41px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 70px;
+	left: 41px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #tigertrouble {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 70px;
-left: 237px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 70px;
+	left: 237px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #mailbag {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 217px;
-left: 41px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 217px;
+	left: 41px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #wayfarer {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 215px;
-left: 237px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 215px;
+	left: 237px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 /* testimonials main links */
 
 #carl {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 217px;
-left: 235px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 217px;
+	left: 235px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #wendy {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 217px;
-left: 41px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 217px;
+	left: 41px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #badger {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 70px;
-left: 135px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 70px;
+	left: 135px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 /* end testimonials main links */
@@ -215,185 +264,185 @@ background-repeat: repeat;
 /* as seen on tv main links */
 
 #fighting {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 217px;
-left: 235px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 217px;
+	left: 235px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #fatty {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 217px;
-left: 41px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 217px;
+	left: 41px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #bcs {
-width: 151px;
-height: 108px;
-position: absolute;
-top: 70px;
-left: 135px;
-z-index: 5000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 151px;
+	height: 108px;
+	position: absolute;
+	top: 70px;
+	left: 135px;
+	z-index: 5000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 /* end as seen on tv main links */
 
 #rightcontentmodule {
-background-color: #5e8eb1;
-height: 383px;
-width: 163px;
-float: right;
-padding: 4px 0 0 0;
-text-align: center;
-position: relative;
-z-index: 300;
+	background-color: #5e8eb1;
+	height: 383px;
+	width: 163px;
+	float: right;
+	padding: 4px 0 0 0;
+	text-align: center;
+	position: relative;
+	z-index: 300;
 }
 
 
 #rightcolnav {
-display: none;
+	display: none;
 }
 
 /* SIDEBAR youtube video links */
 
 #suelinkside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 32px;
-left: 35px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 32px;
+	left: 35px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #tigertroubleside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 122px;
-left: 35px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(media/images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 122px;
+	left: 35px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(media/images/blank.gif);
+	background-repeat: repeat;
 }
 
 #mailbagside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 210px;
-left: 35px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 210px;
+	left: 35px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #wayfarerside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 295px;
-left: 35px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 295px;
+	left: 35px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
-/* as seen on tv side */ 
+/* as seen on tv side */
 
 #fightingside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 206px;
-left: 38px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 206px;
+	left: 38px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #fattyside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 122px;
-left: 38px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 122px;
+	left: 38px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #bcsside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 35px;
-left: 38px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 35px;
+	left: 38px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 /* end as seen on tv side */
 
-/* testimonials side */ 
+/* testimonials side */
 
 #carlside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 206px;
-left: 38px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 206px;
+	left: 38px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #wendyside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 122px;
-left: 38px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 122px;
+	left: 38px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 #badgerside {
-width: 91px;
-height: 68px;
-position: absolute;
-top: 35px;
-left: 38px;
-z-index: 6000;
-cursor: pointer;
-background-image: url(../images/blank.gif);
-background-repeat: repeat;
+	width: 91px;
+	height: 68px;
+	position: absolute;
+	top: 35px;
+	left: 38px;
+	z-index: 6000;
+	cursor: pointer;
+	background-image: url(../images/blank.gif);
+	background-repeat: repeat;
 }
 
 /* end testimonials side */
@@ -401,356 +450,376 @@ background-repeat: repeat;
 /*  end Sidebar youtube video links */
 
 #welcomelawbreakers {
-margin: 4px 0 0 0;
-width: 960px;
-height: 90px;
+	margin: 4px 0 0 0;
+	width: 960px;
+	height: 90px;
 }
 
 #nav {
-    padding-left: 0%;
-    padding-top: 0%;
-    margin-top: 0%;
+	padding-left: 0%;
+	padding-top: 0%;
+	margin-top: 0%;
 }
 
 #nav li {
-margin: 0 0 2px 0;
+	margin: 0 0 2px 0;
 }
 
 #badgershortcut {
-width: 157px;
-height: 155px;
-position: absolute;
-bottom: 0px;
-left: 0px;
+	width: 157px;
+	height: 155px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
 }
 
 #policecar {
-width: 143px;
-height: 77px;
-margin: 10px 0 0 5px;
+	width: 143px;
+	height: 77px;
+	margin: 10px 0 0 5px;
 }
 
 #philanthropylink {
-margin: 98px auto 0 auto;
-display: block;
-width: 151px;
-height: 275px;
+	margin: 98px auto 0 auto;
+	display: block;
+	width: 151px;
+	height: 275px;
 }
 
 #bottomads {
-width: 100%;
-height: 389px;
-position: relative;
-z-index: 3000;
+	width: 100%;
+	height: 389px;
+	position: relative;
+	z-index: 3000;
 }
 
 #leftadmodule {
-width: 301px;
-float: left;
-margin: 0 5px 0 0;
+	width: 301px;
+	float: left;
+	margin: 0 5px 0 0;
 }
 
 #middleadmodule {
-width: 489px;
-float: left;
-text-align: center;
+	width: 489px;
+	float: left;
+	text-align: center;
 }
 
 
 #enespanol {
-position: absolute;
-bottom: 0px;
-left: 0px;
-width: 300px;
-height: 234px;
-z-index: 5000;
-display: none;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 300px;
+	height: 234px;
+	z-index: 5000;
+	display: none;
 }
 
 #noflashespanol {
-width: 300px;
-height: 234px;
+	width: 300px;
+	height: 234px;
 }
 
 #topmiddleads {
-width: 489px;
+	width: 489px;
 }
 
-	#topmiddleads .left {
+#topmiddleads .left {
 	float: left;
 	width: 264px;
 	height: 186px;
 	margin: 0 0 0 2px;
-	}
-	
-	#topmiddleads .right {
+}
+
+#topmiddleads .right {
 	float: right;
 	width: 222px;
 	height: 186px;
 	margin: 0 1px 0 0;
-	}
+}
 
 #rightadmodule {
-width: 159px;
-float: right;
-position: relative;
+	width: 159px;
+	float: right;
+	position: relative;
 }
 
 #telephonenumberfooter {
-width: 960px;
-height: 31px;
-margin: 4px 0 0 0;
-background-color: #e44f2c;
-text-align: left;
-background-image: url(media/images/telephonenumber_b.gif);
-background-position: top left;
-background-repeat: no-repeat;
+	width: 960px;
+	height: 31px;
+	margin: 4px 0 0 0;
+	background-color: #e44f2c;
+	text-align: left;
+	background-image: url(media/images/telephonenumber_b.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
 }
 
 #telephonenumberfooter {
-overflow: hidden;
+	overflow: hidden;
 }
 
 #espanolfooter {
-cursor: pointer;
+	cursor: pointer;
 }
 
 #facebookfriend {
-float: right;
+	float: right;
 }
 
 #valerienespanol {
-float: left;
+	float: left;
 }
 
 #philantrhopic {
-width: 100%;
-height: 45px;
-line-height: 45px;
-text-align: center;
-font-weight: bold;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-weight: bold;
 }
 
-a:link, a:visited, a:active {
-color: #1130c9;
+a:link,
+a:visited,
+a:active {
+	color: #1130c9;
 }
 
 #anothersatisfiedcustomer {
-position: relative;
-z-index: 200;
+	position: relative;
+	z-index: 200;
 }
 
 #facebooklink {
-width: 23px;
-height: 23px;
-position: absolute;
-top: 82px;
-left: 10px;
-z-index: 500;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 82px;
+	left: 10px;
+	z-index: 500;
 }
 
 .hidden {
-display: none;
+	display: none;
 }
 
 #ecardfields {
-left:30px;
-margin:142px auto 0;
-position:absolute;
-width:890px;
-z-index:5000;
+	left: 30px;
+	margin: 142px auto 0;
+	position: absolute;
+	width: 890px;
+	z-index: 5000;
 }
 
 #ecardtocell {
-width: 255px;
-float: left;
-margin: 10px 0 0 0;
+	width: 255px;
+	float: left;
+	margin: 10px 0 0 0;
 }
 
 #ecardfromcell {
-width: 305px;
-float: left;
-height: 38px;
-margin: 10px 0 0 0;
+	width: 305px;
+	float: left;
+	height: 38px;
+	margin: 10px 0 0 0;
 }
 
 #ecarddropdowncell {
-width: 200px;
-float: left;
-text-align: right;
-margin: 10px 0 0 0;
+	width: 200px;
+	float: left;
+	text-align: right;
+	margin: 10px 0 0 0;
 }
 
 #submitbutton {
-float: right;
-width: 111px;
-margin: 5px 0 0 0;
+	float: right;
+	width: 111px;
+	margin: 5px 0 0 0;
 }
 
 #emailtofield {
-line-height: 27px;
-border: 1px solid #816e6e;
-width: 196px;
-height: 27px;
-font-size: 1.5em;
-margin:0 0 0 49px;
-background-image: url(../images/inputbgtile.jpg);
-background-repeat: repeat-x;
+	line-height: 27px;
+	border: 1px solid #816e6e;
+	width: 196px;
+	height: 27px;
+	font-size: 1.5em;
+	margin: 0 0 0 49px;
+	background-image: url(../images/inputbgtile.jpg);
+	background-repeat: repeat-x;
 }
 
 #emailfromfield {
-line-height: 27px;
-border: 1px solid #816e6e;
-width: 196px;
-height: 27px;
-font-size: 1.5em;
-margin:0 0 0 95px;
-background-image: url(../images/inputbgtile.jpg);
-background-repeat: repeat-x;
+	line-height: 27px;
+	border: 1px solid #816e6e;
+	width: 196px;
+	height: 27px;
+	font-size: 1.5em;
+	margin: 0 0 0 95px;
+	background-image: url(../images/inputbgtile.jpg);
+	background-repeat: repeat-x;
 }
 
 #emailselectcard {
-line-height: 25px;
-border: 1px solid #816e6e;
-color: #000;
-width: 58px;
-font-size: 1.5em;
-margin: 0 5px 0 0;
-background-image: url(../images/inputbgtile.jpg);
-background-repeat: repeat-x;
+	line-height: 25px;
+	border: 1px solid #816e6e;
+	color: #000;
+	width: 58px;
+	font-size: 1.5em;
+	margin: 0 5px 0 0;
+	background-image: url(../images/inputbgtile.jpg);
+	background-repeat: repeat-x;
 }
 
 #ecardmessage {
-width: 440px;
-margin: 0 auto;
+	width: 440px;
+	margin: 0 auto;
 }
 
 .blur {
-color: #bababa;
-font-weight: bold;
-line-height: 27px;
+	color: #bababa;
+	font-weight: bold;
+	line-height: 27px;
 }
 
 /*  dress like valeri popup  */
 
 #dresslikevaleribody {
-width: 724px;
-height: 450px;
-margin: 0 auto;
+	width: 724px;
+	height: 450px;
+	margin: 0 auto;
 }
 
 #leftcol {
-width: 587px;
-float: left;
-height: 450px;
-position: relative;
+	width: 587px;
+	float: left;
+	height: 450px;
+	position: relative;
 }
 
 #rightcol {
-width: 122px;
-float: right;
-height: 400px;
-padding: 50px 0 0 15px;
+	width: 122px;
+	float: right;
+	height: 400px;
+	padding: 50px 0 0 15px;
 }
 
 #rightcolinstructions {
-width: 88px;
-text-align: center;
-font-size: .9em;
+	width: 88px;
+	text-align: center;
+	font-size: .9em;
 }
 
 .mainthumb {
-width: 74px;
-height: 78px;
-margin: 0 0 10px 6px;
-border: 1px solid #eae21c;
-background-color: #000;
-cursor: pointer;
+	width: 74px;
+	height: 78px;
+	margin: 0 0 10px 6px;
+	border: 1px solid #eae21c;
+	background-color: #000;
+	cursor: pointer;
 }
 
 .thumblast {
-margin: 0 0 5px 6px;
+	margin: 0 0 5px 6px;
 }
-	
+
 .subthumb {
-width: 69px;
-height: 72px;
-margin: 0 0 5px 5px;
-cursor: pointer;
+	width: 69px;
+	height: 72px;
+	margin: 0 0 5px 5px;
+	cursor: pointer;
 }
 
 #leftcolinstructions {
-width: 70px;
-text-align: center;
-font-size: .9em;
-margin: 0 0 0 5px;
+	width: 70px;
+	text-align: center;
+	font-size: .9em;
+	margin: 0 0 0 5px;
 }
 
 #viewer {
-width: 556px;
-height: 373px;
-border: 3px solid #e9e31f;
-float: right;
-margin: 0 4px 0 0;
-padding: 5px 0 0 0;
-background-image: url(../images/dresslikevaleri/main/large/oneaL.jpg);
-background-color: #fff;
+	width: 556px;
+	height: 373px;
+	border: 3px solid #e9e31f;
+	float: right;
+	margin: 0 4px 0 0;
+	padding: 5px 0 0 0;
+	background-image: url(../images/dresslikevaleri/main/large/oneaL.jpg);
+	background-color: #fff;
 }
 
 #viewertitle {
-width: 100%;
-height: 46px;
-text-align: center;
-line-height: 46px;
-color: #fff;
-font-weight: bold;
-font-size: 2.2em;
-text-shadow: 1px 1px 2px #000;
+	width: 100%;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.2em;
+	text-shadow: 1px 1px 2px #000;
 }
 
 #legal {
-text-align:center;
-margin-bottom:15px;
+	text-align: center;
+	margin-bottom: 15px;
 }
 
 #ecardsheader {
-    height: 234px;
-    width: 100%;
-    position: relative;
-    background-image: url(media/images/ecardsheader_b.jpg);
-    background-repeat: no-repeat;
+	height: 234px;
+	width: 100%;
+	position: relative;
+	background-image: url(media/images/ecardsheader_b.jpg);
+	background-repeat: no-repeat;
 }
 
 #copyright {
-text-align:center;
-margin-bottom:20px;
-text-transform:uppercase;
-color: #74580e;
-font-size:11px;
-font-weight: bold;
-letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #74580e;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 #legal a {
-color:#1130c9;
-text-transform:uppercase;
-font-weight:bold;
-text-decoration:none;
-letter-spacing:1px;
-font-size:11px;
+	color: #1130c9;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 11px;
 }
 
 /* validation */
-label { width: 97%; float: left; text-align: right; }
-label.error {color: red; vertical-align: top; font-weight: bold; color: #fff;}
-.submit { margin-left: 12em; }
-em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+label {
+	width: 97%;
+	float: left;
+	text-align: right;
+}
+
+label.error {
+	color: red;
+	vertical-align: top;
+	font-weight: bold;
+	color: #fff;
+}
+
+.submit {
+	margin-left: 12em;
+}
+
+em {
+	font-weight: bold;
+	padding-right: 1em;
+	vertical-align: top;
+}
 
 
 .clear {
-height: 0px;
-line-height: 0px;
-padding: 0px;
-font-size: 0px;
-clear: both;
+	height: 0px;
+	line-height: 0px;
+	padding: 0px;
+	font-size: 0px;
+	clear: both;
 }
